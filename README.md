@@ -21,4 +21,4 @@ In order to export the data, I ssh-ed into the MHN admin VM and ran the command 
 <img src="mhn3.gif">
 
 ### Cleanup 
-I plan to delete the VMs on November 7th, 2022.
+I plan to delete the VMs on November 9th, 2022.
