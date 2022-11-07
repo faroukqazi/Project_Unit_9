@@ -14,3 +14,11 @@ Similar to honeypot-1, I created 2 additional honeypots and named them 'honeypot
 
 ### Database Backup (session.json)
 In order to export the data, I ssh-ed into the MHN admin VM and ran the command 'mongoexport --db mnemosyne --collection session > session.json'. A new file named 'session.json' was then created in my current working directory. To ensure that GitHub could handle the file, I used the truncate command 'truncate --size="<5M" session.json'. Finally, I used the 'scp' command in Google Cloud SDK to copy session.json file onto my local machine. I uploaded the session.json to this repository.
+
+### GIF Walkthrough
+<img src="mhn1.gif">
+<img src="mhn2.gif">
+<img src="mhn3.gif">
+
+### Cleanup 
+I plan to delete the VMs on November 7th, 2022.
